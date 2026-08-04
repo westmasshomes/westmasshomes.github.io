@@ -1,1 +1,1 @@
-# Westmasshomes.github.io
+# westmasshomes.github.io

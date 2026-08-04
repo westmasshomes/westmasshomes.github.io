@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WestMass Homes | Property Stewardship & Home Watch</title>
-    <meta name="description" content="Professional property stewardship and home watch services across Western Massachusetts and the Berkshires.">
+    <title>WestMass Homes | Professional Home Watch & Stewardship</title>
+    <meta name="description" content="Professional home watch and property stewardship across Western Massachusetts and the Berkshires following National Home Watch Association standards.">
     <style>
         :root {
             --primary-green: #1E5631;
@@ -69,7 +69,7 @@
         }
 
         .hero {
-            background: linear-gradient(rgba(30, 86, 49, 0.85), rgba(30, 86, 49, 0.85)), url('https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+            background: linear-gradient(rgba(30, 86, 49, 0.88), rgba(30, 86, 49, 0.88)), url('https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
             color: var(--white);
             padding: 5rem 1.5rem;
             text-align: center;
@@ -87,9 +87,45 @@
         }
 
         .hero p {
-            font-size: 1.25rem;
+            font-size: 1.2rem;
             margin-bottom: 2rem;
             opacity: 0.95;
+        }
+
+        .definition-section {
+            background-color: var(--light-bg);
+            padding: 3rem 1.5rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .definition-container {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .definition-box {
+            background: var(--white);
+            border-left: 5px solid var(--primary-green);
+            padding: 1.5rem 2rem;
+            margin-top: 1rem;
+            border-radius: 4px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+            text-align: left;
+        }
+
+        .definition-box p {
+            font-style: italic;
+            font-size: 1.1rem;
+            color: #444;
+        }
+
+        .definition-box .source {
+            margin-top: 0.75rem;
+            font-style: normal;
+            font-weight: 600;
+            color: var(--primary-green);
+            font-size: 0.95rem;
         }
 
         .services {
@@ -121,6 +157,33 @@
         .service-card h3 {
             color: var(--primary-green);
             margin-bottom: 0.75rem;
+        }
+
+        .standards-section {
+            background-color: var(--white);
+            padding: 4rem 1.5rem;
+            max-width: 1100px;
+            margin: 0 auto;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .standards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .standard-item {
+            text-align: center;
+            padding: 1.5rem;
+            background: var(--light-bg);
+            border-radius: 8px;
+        }
+
+        .standard-item h4 {
+            color: var(--primary-green);
+            margin-bottom: 0.5rem;
         }
 
         .contact-section {
@@ -178,34 +241,73 @@
 
     <section class="hero">
         <div class="hero-content">
-            <h1>Local Property Stewardship & Home Watch</h1>
-            <p>Reliable, professional boots on the ground for second homes and vacant properties across Western Massachusetts and the Berkshires.</p>
-            <a href="#contact" class="btn-primary" style="font-size: 1.1rem; padding: 0.8rem 1.8rem;">Get Started</a>
+            <h1>Professional Home Watch & Stewardship</h1>
+            <p>Reliable, professional boots on the ground for second homes and unoccupied properties across Western Massachusetts and the Berkshires.</p>
+            <a href="#contact" class="btn-primary" style="font-size: 1.1rem; padding: 0.8rem 1.8rem;">Schedule an Inspection</a>
         </div>
     </section>
 
+    <!-- Definition Section -->
+    <section class="definition-section">
+        <div class="definition-container">
+            <h2 style="color: var(--primary-green); font-size: 1.5rem;">What is Home Watch?</h2>
+            <div class="definition-box">
+                <p>"Home Watch is a visual observation of a home or property, looking for obvious issues."</p>
+                <div class="source">— National Home Watch Association (NHWA) Definition</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
     <section class="services">
-        <h2 class="section-title">How We Protect Your Property</h2>
+        <h2 class="section-title">Comprehensive Property Oversight</h2>
         <div class="services-grid">
             <div class="service-card">
-                <h3>Visual Home Inspections</h3>
-                <p>Regular scheduled interior and exterior walk-throughs to verify security, catch plumbing leaks, monitor HVAC performance, and check for weather damage.</p>
+                <h3>Interior & Exterior Checks</h3>
+                <p>Systematic walk-throughs using professional checklists to verify property security, monitor HVAC function, check plumbing fixtures, and catch signs of water intrusion or leaks early.</p>
             </div>
             <div class="service-card">
                 <h3>Storm Response & Verification</h3>
-                <p>Prompt post-storm visits following heavy winter weather, severe high winds, or power outages to identify structural issues before they compound.</p>
+                <p>Timely post-storm visits following severe weather, high winds, heavy snow, or power outages to identify structural issues before they cause compounding damage.</p>
             </div>
             <div class="service-card">
-                <h3>Contractor & Keyholder Access</h3>
-                <p>Local coordination to provide secure access for trade specialists, deliveries, or maintenance technicians while keeping you updated remotely.</p>
+                <h3>Keyholder & Contractor Access</h3>
+                <p>Reliable local coordination to provide access for trade specialists, maintenance workers, or deliveries while keeping you updated remotely with visual reports.</p>
             </div>
         </div>
     </section>
 
+    <!-- Standards & Code of Ethics Section -->
+    <section class="standards-section">
+        <h2 class="section-title">Built on Industry Standards</h2>
+        <p style="text-align: center; max-width: 750px; margin: 0 auto; color: #555;">
+            A neighbor or favor-giver can miss critical details. We align our services with National Home Watch Association standards and best practices to protect your asset.
+        </p>
+        <div class="standards-grid">
+            <div class="standard-item">
+                <h4>Fully Insured & Bonded</h4>
+                <p>Carrying proper liability coverage tailored specifically for home watch operations.</p>
+            </div>
+            <div class="standard-item">
+                <h4>Vetted & Background Checked</h4>
+                <p>Providing total peace of mind knowing who is entering and monitoring your home.</p>
+            </div>
+            <div class="standard-item">
+                <h4>Systematic Checklists</h4>
+                <p>Following strict, structured inspection processes on every single visit.</p>
+            </div>
+            <div class="standard-item">
+                <h4>Timely Reporting</h4>
+                <p>Delivering clear, prompt updates and direct communication after each visit.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
     <section class="contact-section" id="contact">
         <div class="contact-container">
             <h2 class="section-title">Schedule a Consultation</h2>
-            <p>Fill out the form below to discuss your property needs or schedule a walk-through.</p>
+            <p>Fill out the form below to discuss your property needs or schedule an initial walk-through.</p>
             
             <div class="form-wrapper">
                 <!-- Replace the src URL below with your embedded Google Form link -->

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WestMass Homes | Property Stewardship & Home Watch</title>
+    <meta name="description" content="Professional property stewardship and home watch services across Western Massachusetts and the Berkshires.">
+    <style>
+        :root {
+            --primary-green: #1E5631;
+            --accent-green: #2d7a46;
+            --dark-text: #222222;
+            --light-bg: #f8f9fa;
+            --white: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            color: var(--dark-text);
+            line-height: 1.6;
+            background-color: var(--white);
+        }
+
+        header {
+            background-color: var(--white);
+            border-bottom: 2px solid var(--primary-green);
+            padding: 1.25rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .brand-logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-green);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .btn-primary {
+            background-color: var(--primary-green);
+            color: var(--white);
+            padding: 0.6rem 1.2rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.2s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: var(--accent-green);
+        }
+
+        .hero {
+            background: linear-gradient(rgba(30, 86, 49, 0.85), rgba(30, 86, 49, 0.85)), url('https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+            color: var(--white);
+            padding: 5rem 1.5rem;
+            text-align: center;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            font-size: 2.75rem;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+            opacity: 0.95;
+        }
+
+        .services {
+            padding: 4rem 1.5rem;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            text-align: center;
+            color: var(--primary-green);
+            font-size: 2rem;
+            margin-bottom: 2.5rem;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .service-card {
+            background-color: var(--light-bg);
+            border-radius: 8px;
+            padding: 2rem;
+            border-top: 4px solid var(--primary-green);
+        }
+
+        .service-card h3 {
+            color: var(--primary-green);
+            margin-bottom: 0.75rem;
+        }
+
+        .contact-section {
+            background-color: var(--light-bg);
+            padding: 4rem 1.5rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .contact-container {
+            max-width: 700px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .form-wrapper {
+            margin-top: 2rem;
+            background: var(--white);
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+
+        iframe {
+            width: 100%;
+            height: 700px;
+            border: none;
+        }
+
+        footer {
+            background-color: var(--primary-green);
+            color: var(--white);
+            text-align: center;
+            padding: 2rem 1.5rem;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            .hero p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="#" class="brand-logo">🌲 WestMass Homes</a>
+            <a href="#contact" class="btn-primary">Request a Visit</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Local Property Stewardship & Home Watch</h1>
+            <p>Reliable, professional boots on the ground for second homes and vacant properties across Western Massachusetts and the Berkshires.</p>
+            <a href="#contact" class="btn-primary" style="font-size: 1.1rem; padding: 0.8rem 1.8rem;">Get Started</a>
+        </div>
+    </section>
+
+    <section class="services">
+        <h2 class="section-title">How We Protect Your Property</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Visual Home Inspections</h3>
+                <p>Regular scheduled interior and exterior walk-throughs to verify security, catch plumbing leaks, monitor HVAC performance, and check for weather damage.</p>
+            </div>
+            <div class="service-card">
+                <h3>Storm Response & Verification</h3>
+                <p>Prompt post-storm visits following heavy winter weather, severe high winds, or power outages to identify structural issues before they compound.</p>
+            </div>
+            <div class="service-card">
+                <h3>Contractor & Keyholder Access</h3>
+                <p>Local coordination to provide secure access for trade specialists, deliveries, or maintenance technicians while keeping you updated remotely.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <h2 class="section-title">Schedule a Consultation</h2>
+            <p>Fill out the form below to discuss your property needs or schedule a walk-through.</p>
+            
+            <div class="form-wrapper">
+                <!-- Replace the src URL below with your embedded Google Form link -->
+                <iframe src="YOUR_GOOGLE_FORM_EMBED_URL_HERE" loading="lazy">Loading form…</iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 WestMass Homes, LLC. Serving Western Massachusetts & The Berkshires. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
